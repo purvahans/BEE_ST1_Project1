@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .hero-section {
+            text-align: center;
+        }
+
+        .hero-section h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .main-content {
+            margin-top: 30px;
+        }
+
+        .main-content h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .container {
+            /* max-width: 800px;
+            margin: 20px auto;
+            padding: 20px; */
+            background:linear-gradient(rgba(43, 3, 56, 0.479), rgba(19, 1, 20, 0.744)) , url("https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_1280.jpg");
+            background-size:cover ;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 90vh;
+        }
+        
+        .body{
+            margin: 0;
+            padding: 0;
+        }
+        
+        .hero-section {
+            text-align: center;
+            padding-top: 100px;
+            /* background-color: blueviolet; */
+            color: white;
+            width: 500px;
+            height: 250px;
+            margin-left: 350px;
+            /* padding-top: 200px; */
+            /* margin-top: 200px; */
+            /* width: 400px; */
+        }
+
+        .hero-section h1 {
+            font-size: 2.3em;
+            margin-bottom: 10px;
+        }
+
+        .main-content {
+            margin-top: 80px;
+        }
+
+        .main-content h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+       
+        .h1{
+            margin-top: 150px;
+            margin-left: 60px;
+        }
+         .navbar {
+            /* Add styles for your navbar, for example: */
+            position: fixed;
+            width: 100%;
+            
+            top: 0;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    {{!-- {{>navbar}} --}}
+
+     <div class="navbar">
+        {{> navbar}}
+    </div>
+
+     
+    <div class="container">
+        <div class="hero-section">
+            <h1 class="h1">Welcome to Explore Us</h1>
+            <p>Discover And Learn New Things.</p>
+        </div>
+    </div>
+
+</body>
+</html>
